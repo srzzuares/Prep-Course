@@ -138,9 +138,6 @@ function operadoresLogicos(num1, num2, num3) {
           else{return false;}
 }
 
-
-
-
 function esPrimo(numero) {
   // Devuelve "true" si "numero" es primo
   // De lo contrario devuelve "falso"
@@ -152,7 +149,6 @@ function esPrimo(numero) {
     if(numero % i === 0) {return false;}
   }
   return true;
-  
 }
 
 function esVerdadero(valor){
